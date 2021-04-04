@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
-The purpose of this analysis is well explained.
+This machine learning project used scikit-learn and imbalanced-learn to train and evaluate models to determine credit card risk using a credit card credit dataset from LendingClub, a peer-to-peer lending services company. Six different techniques were used to train and evaluate models with unbalanced classes to determine credit risk: Oversampling with the RandomOverSampler and SMOTE algorithms, Undersampling with the ClusterCentroids algorithm, a combination of over and under sampling with the SMOTEENN algorithm, and two machine learning models that reduce bias - the BalancedRandomForestClassifer and EasyEnsembleClassifier. The following is an analysis of the models and their results.
 
 ## Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
