@@ -6,15 +6,70 @@ The purpose of this analysis is well explained.
 ## Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-### Use this Header for Each Model
+### Naive Random Oversampling
 **This code is to enter an image**
 
-![june_temps.PNG](https://github.com/borkard/surfs_up/blob/main/june_temps.PNG)
+![naive_random_oversampling.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/naive_random_oversampling.PNG)
 
 **This code is for a bulleted list**
-* The maximum temperature for both December and June are fairly close (83 and 85 respectively), however, the minimum temperatures for December and June differ by 8 degrees.
-* The mean temperature for both December and June (71 and 75 respectively) are also fairly close.
-* The range of temperatures for December is 27 degrees compared to 21 degrees for June temperatures.
+* Describe the balanced accuracy score
+* Describe the precision scores
+* Describe the recall scores
+
+
+### SMOTE Oversampling
+**This code is to enter an image**
+
+![SMOTE_oversampling.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/SMOTE_oversampling.PNG)
+
+**This code is for a bulleted list**
+* Describe the balanced accuracy score
+* Describe the precision scores
+* Describe the recall scores
+
+
+### Undersampling
+**This code is to enter an image**
+
+![undersampling.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/undersampling.PNG)
+
+**This code is for a bulleted list**
+* Describe the balanced accuracy score
+* Describe the precision scores
+* Describe the recall scores
+
+
+### Combination (Over and Under) Sampling (SMOTEENN)
+**This code is to enter an image**
+
+![SMOTEENN_combination.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/SMOTEENN_combination.PNG)
+
+**This code is for a bulleted list**
+* Describe the balanced accuracy score
+* Describe the precision scores
+* Describe the recall scores
+
+
+### Balanced Random Forest Classifier
+**This code is to enter an image**
+
+![balanced_random_forest.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/balanced_random_forest.PNG)
+
+**This code is for a bulleted list**
+* Describe the balanced accuracy score
+* Describe the precision scores
+* Describe the recall scores
+
+
+### Easy Ensemble AdaBoost Classifier
+**This code is to enter an image**
+
+![easy_ensemble_classifier.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/easy_ensemble_classifier.PNG)
+
+**This code is for a bulleted list**
+* Describe the balanced accuracy score
+* Describe the precision scores
+* Describe the recall scores
 
 
 ## Summary
