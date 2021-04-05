@@ -30,7 +30,6 @@ The Undersampling method used Cluster Centroids to resample the data and reduce 
 
 ![undersampling.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/undersampling.PNG)
 
-**This code is for a bulleted list**
 * The balanced accuracy score for the undersampling technique was around 51%, meaning that only 51% of the testing data was accurately classified. This is not an ideal accuracy score.
 * The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted. This model is not great for identifying high-risk loans.
 * The recall scores for the high-risk loans were around 0.59 and the recall scores for low-risk loans were around 0.43. While the high-risk recall is much better, both recall scores are low and show that many of the positives were not accurately predicted.
@@ -41,7 +40,6 @@ The Combination method(over and under sampling) used SMOTEENN to remove outliers
 
 ![SMOTEENN_combination.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/SMOTEENN_combination.PNG)
 
-**This code is for a bulleted list**
 * The balanced accuracy score for the undersampling technique was around 63.8%, meaning that only 63.8% of the testing data was accurately classified. This is a higher accuracy score than many of the other techniques.
 * The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted.
 * The high-risk recall score for this model is fairly high at 0.70 and the low-risk recall score is average at 0.57. Compared to the previous techniques, this model is much better at identifying true high-risk loans. 
@@ -52,7 +50,6 @@ The Balanced Random Forest Classifier was used to create 100 decision trees to c
 
 ![balanced_random_forest.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/balanced_random_forest.PNG)
 
-**This code is for a bulleted list**
 * The balanced accuracy score for this model is comparatively high at 78.8%, meaning that 78.8% of the testing credit data was accurately classified.
 * The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but nearly none of the high-risk loans were accurately predicted.
 * The recall score for low-risk loans is very high at 0.91 and the recall score for high-risk loans is fairly high at 0.67. This shows that the classifier is good at predicting true positives for low-risk loans.
@@ -63,7 +60,6 @@ The Easy Ensemble AdaBoost Classifier was used to train and evaluate models to c
 
 ![easy_ensemble_classifier.PNG](https://github.com/borkard/Credit_Risk_Analysis/blob/main/Images/easy_ensemble_classifier.PNG)
 
-**This code is for a bulleted list**
 * The balanced accuracy score for this model high at around 92.5%, meaning that the classifier accurately predicted the credit risk 92.5% of the time.
 * The precision scores for this model are very skewed toward the low-risk loans as all of the low-risk loans were correctly predicted, but few of the high-risk loans were accurately predicted.
 * The recall scores for both high and low risk were quite high in this model at 0.91 for high-risk loans and 0.94 for low-risk loans. This shows the high rate of true positives.
